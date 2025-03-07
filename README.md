@@ -1,3 +1,13 @@
+# Apache 2.2
+<IfModule !mod_authz_core.c>
+    Order allow,deny
+    Allow from all
+</IfModule>
+
+# Apache 2.4
+<IfModule mod_authz_core.c>
+    Require all granted
+</IfModule>
 <p align="center">
   <img src="https://framerusercontent.com/images/nZbkYqzNfjeTaOidYm2CXg3vvDA.png" height="128"/>
 </p>
