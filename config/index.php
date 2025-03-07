@@ -1,4 +1,5 @@
-<?php
+<?php20
+
 /**
  * Mollie       https://www.mollie.nl
  *
